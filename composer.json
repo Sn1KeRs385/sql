@@ -1,0 +1,20 @@
+{
+  "name" : "wrong-about-everything/sql",
+  "description" : "Working with SQL databases",
+  "autoload": {
+    "psr-4": {
+      "Sql\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Sql\\Tests\\": "test/"
+    }
+  },
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.3"
+  }
+}
