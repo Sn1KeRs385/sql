@@ -12,9 +12,12 @@
     }
   },
   "require": {
-    "php": "^7.1"
+    "php": "^7.1",
+    "ext-pdo": "*",
+    "wrong-about-everything/impiura": "dev-master#680f8952071dc4367fdcaea9e9c27fa72a993135"
   },
   "require-dev": {
     "phpunit/phpunit": "^7.3"
-  }
+  },
+  "minimum-stability": "dev"
 }
