@@ -30,8 +30,6 @@ class Response
 
         $result = $this->query->result($dbh);
 
-        $this->connection->close();
-
         return $result;
     }
 }
